@@ -16,4 +16,4 @@ cp -u ./*.html ../: Create a script that copies all the HTML files from the curr
 mv ./[A-Z]* /tmp/u/: Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u
 rm ./*~ :  a script that deletes all files in the current working directory that end with the character ~
 mkdir -p welcome/to/school: Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
-ls -la -m -F /: a command that lists all the files and directories of the current directory, separated by commas (,)
+ls -la -m -p /: a command that lists all the files and directories of the current directory, separated by commas (,)
