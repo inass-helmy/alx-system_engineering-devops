@@ -10,3 +10,4 @@ chmod ugo+x hello:a script that adds execution permission to the owner, the grou
 chmod 753 hello : giv -rwxr-x-wx to hello
 chmod --reference=olleh hello: a script that sets the mode of the file hello the same as olleh’s mode.
 chmod -R ugo+x : script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+mkdir -m 751 my_dir: script that creates a directory called my_dir with permissions 751 in the working directory
