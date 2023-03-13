@@ -4,3 +4,4 @@ echo "\"(Ôo)'": a script that displays a confused smiley "(Ôo)'/etc/passwd
 /etc/hosts: Display the content of /etc/passwd and /etc/hosts
 tail -10 /etc/passwd: Display the last 10 lines of /etc/passwd
 head -10 /etc/passwd: Display the first 10 lines of /etc/passwd
+head -3 iacta: Write a script that displays the third line of the file iacta
