@@ -1,2 +1,2 @@
 #!/bin/bash
-find -minpth 1 -type d | wc -1
+find -mindpth 1 -type d | wc -1
